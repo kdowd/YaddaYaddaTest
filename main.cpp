@@ -1,7 +1,12 @@
 #include <iostream>
+#include <string>
+
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello, World! 2026 !!" << std::endl;
+    string message = "Hello, World 2026 !!";
+    cout << message << "\t" << message.length() << endl;
     return 0;
+
 }
